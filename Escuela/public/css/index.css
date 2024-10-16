@@ -1,0 +1,62 @@
+/* Estilos generales */
+body {
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Color de texto negro */
+.text-dark {
+    color: #000; /* Cambia el color de texto a negro */
+}
+
+/* Estilos para encabezados */
+h2, h3, h5 {
+    color: #000; /* Color de texto negro */
+}
+
+/* Botón con icono */
+.btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px; /* Espaciado entre iconos */
+}
+
+/* Tabla */
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0; /* Margen entre la tabla y otros elementos */
+}
+
+.table thead {
+    background-color: #007bff; /* Color de fondo de encabezados */
+    color: #fff; /* Color de texto en encabezados */
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table th {
+    font-weight: bold;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1; /* Cambia el color al pasar el mouse */
+}
+
+/* Tarjeta */
+.card {
+    border: none;
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Oculta el desbordamiento */
+}
+
+/* Estilos del modal */
+.modal-header {
+    background-color: #007bff; /* Color de fondo del encabezado del modal */
+    color: #fff; /* Color de texto en el encabezado del modal */
+}
